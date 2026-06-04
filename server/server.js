@@ -13,7 +13,7 @@ await connectDB()
 app.use(cors({
     origin: [
       "http://localhost:5173",
-      "https://quick-blog-orcin.vercel.app"
+      "https://quick-blog-ten-topaz.vercel.app/"
     ],
     credentials: true
   }))
