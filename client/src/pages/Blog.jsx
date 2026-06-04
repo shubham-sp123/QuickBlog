@@ -42,7 +42,7 @@ function Blog() {
     try {
       const { data } = await axios.get(`/api/blog/${id}`);
       data.success ? setData(data.blog) : toast.error(data.message);
-      console.log("blog.jsx", data);
+     
     } catch (error) {
       toast.error(error.message);
     }

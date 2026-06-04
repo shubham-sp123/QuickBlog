@@ -38,10 +38,9 @@ function UserAddBlog() {
 
     const onSubmitHandler = async (e) => {
         e.preventDefault()
-        console.log('addBlog image',image)
+        
         if (!image) {
         toast.error('Please upload a thumbnail image')
-        console.log('addblog if')
         return
     }
         setIsAdding(true)
