@@ -10,7 +10,13 @@ const app = express();
 
 await connectDB()
 
-app.use(cors())
+app.use(cors({
+    origin: [
+      "http://localhost:5173",
+      "https://quick-blog-orcin.vercel.app"
+    ],
+    credentials: true
+  }))
 app.use(express.json())
 
 app.get('/', (req, res) => res.send('API is working'))
