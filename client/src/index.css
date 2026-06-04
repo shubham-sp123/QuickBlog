@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@theme {
+  --color-primary: #4F46E5;
+}
+
+.rich-text { font-size: 15px; line-height: 1.8; }
+.rich-text p { margin-bottom: 16px; color: #374151; }
+.rich-text h1 { font-size: 34px; font-weight: 700; color: #111827 !important; margin: 32px 0 16px; }
+.rich-text h2 { font-size: 24px; font-weight: 600; color: #1f2937 !important; margin: 28px 0 12px; }
+.rich-text h3 { font-size: 20px; font-weight: 600; color: #374151 !important; margin: 22px 0 10px; }
+.rich-text h4 { font-size: 17px; font-weight: 500; color: #4b5563 !important; margin: 18px 0 8px; }
+.rich-text h5 { font-size: 15px; font-weight: 500; color: #6b7280 !important; margin: 14px 0 6px; }
+.rich-text h6 { font-size: 13px; font-weight: 400; color: #9ca3af !important; margin: 10px 0 4px; }
+.rich-text strong { font-weight: 600; color: #111827; }
+.rich-text ol { margin-left: 28px; list-style-type: decimal; }
+.rich-text ul { margin-left: 28px; list-style-type: disc; }
+.rich-text li { margin-bottom: 8px; color: #374151; }
+.rich-text a { color: #4F46E5; text-decoration: underline; }
+.rich-text blockquote { border-left: 3px solid #4F46E5; padding-left: 16px; color: #6b7280; font-style: italic; margin: 20px 0; }
